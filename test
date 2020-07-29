@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<title>Web Page Design</title>
+<head>
+	<style type="text/css">
+		body{
+			background-color: beige;
+		}
+</style>
+</head>
+<body>
+<p id="t">TIME</p>
+<button onclick="sayHello()">click</button>
+
+	
+	<script>
+function sayHello() {
+   document.getElementById("t").innerHTML = "Hello World";
+}
+
+</script>
+
+</body>
+</html>
